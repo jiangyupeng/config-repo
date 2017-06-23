@@ -1,1 +1,6 @@
 name: yupeng
+spring:
+  rabbitmq:
+    hostname: localhost
+    username: test
+    password: test
