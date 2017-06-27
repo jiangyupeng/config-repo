@@ -3,3 +3,11 @@ spring:
     consul:
       discovery:
         instance_id: user-command
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: axon
+    password: axon
+    exchange: microservice
+    queue: axon
+    index: 1

@@ -1,5 +1,13 @@
 name: yupeng
 spring:
+  application:
+    exchange: user.events.fanout.exchange
+#    queue: user.default.queue
+    queue: event.stream
+    terminal: user.axon.terminal
+    databaseName: user
+    eventsCollectionName: events
+    snapshotCollectionName: snapshots
   rabbitmq:
     hostname: localhost
     username: test
