@@ -8,6 +8,7 @@ spring:
     port: 5672
     username: axon
     password: axon
+  application:
     exchange: microservice
     queue: axon
     index: 1
