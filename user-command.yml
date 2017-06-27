@@ -4,7 +4,7 @@ spring:
       discovery:
         instance_id: user-command
   rabbitmq:
-    host: localhost
+    hostname: localhost
     port: 5672
     username: axon
     password: axon
