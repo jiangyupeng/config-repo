@@ -6,5 +6,5 @@ spring:
     password: axon
   application:
     exchange: microservice
-    queue: axon.1
+    queue: axon
     index: 1
